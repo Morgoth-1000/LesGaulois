@@ -20,6 +20,19 @@ public class Gaulois {
 
 	private String prendreParole() {
 		// TODO Auto-generated method stub
-		return "Le gaulois" + nom + ":";
+		return "Le Gaulois " + nom + ":";
 	}
+	
+	public static void main(String[] args) {
+		Gaulois asterix = new Gaulois ("Astérix",8);
+		System.out.println(asterix.getNom());
+	}
+
+	@Override
+	public String toString() {
+		return "Gaulois [nom=" + nom + ", force=" + force + "]";
+	}
+	
+	
 }
+
