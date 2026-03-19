@@ -1,6 +1,8 @@
 package personnages;
 
-	public class Gaulois {
+import java.util.Set;
+
+public class Gaulois {
 		private String nom;
 		private int force;
 		private int effetPotion = 1;
@@ -39,4 +41,5 @@ package personnages;
 			Gaulois asterix = new Gaulois("Astérix", 8);
 			System.out.println(asterix.getNom());
 		}
+		public set
 	}

@@ -16,7 +16,7 @@ package test_fonctionnel;
 					asterix.frapper(minus);
 				}
 				Romain brutus = new Romain("Brutus", 14);
-				Druide druide = new Druide("Panoramix",0);
+				Druide druide = new Druide("Panoramix",2);
 				druide.fabriquerPotion(4, 3);
 				druide.booster(obelix);
 				druide.booster(asterix);
