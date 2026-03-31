@@ -1,7 +1,7 @@
 package test_fonctionnel;
-	import personnages.Druide;
-	import personnages.Gaulois;
-	import personnages.Romain;
+import personnages.Druide;
+import personnages.Gaulois;
+import personnages.Romain;
 	public class TestGaulois {
 		public static void main(String[] args) {
 			Gaulois asterix = new Gaulois("Astérix", 8);
